@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="project/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="project/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="project/favicon/favicon-16x16.png">
+        <link rel="manifest" href="project/favicon/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> -->
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/fontawesome.min.css"> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"> -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="project/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="howitworks.html">HOW IT WORKS ?</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+     <h1>Contact Us</h1>
+    </section>
+
+<!-- -----------------------------------------contact us-------------------------------------- -->
+
+
+<section class="location">
+    <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.652714808955!2d75.86915596492927!3d22.725227885108338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd13ed2bae49%3A0xb884fc340de875c6!2sShri%20Govindram%20Seksaria%20Institute%20of%20Technology%20and%20Science!5e0!3m2!1sen!2sin!4v1676188866458!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<!-- <br> <br> <br> -->
+
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+               <i class="fa fa-home"></i>
+               <span>
+                <h5>Shri Govindram Seksaria Institute of Technology and Science <br> Vallabh Nagar</h5>
+                <p>Indore, Madhya Pradesh <br>PIN 452001</p>
+               </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                 <h5>+91-7354012003</h5>
+                 <p>Monday to Friday, 10AM to 5PM </p>
+                </span>
+             </div>
+             <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                 <h5>help.fileorganizer@gmail.com</h5>
+                 <p>Email Us Your Query</p>
+                </span>
+             </div>
+        </div>
+        <div class="contact-col">
+
+        <form method="post" action="formhandler.php" >  
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+    
+                <input type="email" name="email" placeholder="Enter Email Address" required>
+               
+                <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+               
+                <button type="submit" class="hero-btn red-btn" onclick="goback()">Send Message</button> 
+            </form>
+
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    <div class="row">
+        <div class="col">
+            <img src="project/logo.png" class="logo">
+            <ul>
+            <li> File Organizer, founded in 2023 with the vision to help save time with the help of technology. We specialise in organizing the large number of unsorted data in easy manner for the user purpose.</li></ul>
+        </div>
+        <div class="col">
+            <h3>Contact Us <div class="underline"><span></span></div></h3>
+            <ul>
+            <li><a href="mailto:help.fileorganizer@gmail.com" class="email-id">help.fileorganizer@gmail.com</a></li>
+            <h4>+91-7354012003</h4>
+        </ul>
+        </div>
+
+        <div class="col">
+            <h3>Links<div class="underline"><span></span></div></h3>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="howitworks.html">How it works</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        </div>
+        <div class="col">
+          <h3>Follow Us On<div class="underline"><span></span></div></h3>
+          <div class="social-icon">
+           <a href="https://www.facebook.com/profile.php?id=100092546253537" target="_blank"><i class="fa fa-facebook"></i></a>
+           <a href="mailto:help.fileorganizer@gmail.com"> <i class="fa fa-envelope"></i></a>
+           <a href="https://www.instagram.com/fileorganizer.help/" target="_blank"> <i class="fa fa-instagram"></i></a>
+           <a href="https://www.linkedin.com/in/file-organizer-926141275/" target="_blank"> <i class="fa fa-linkedin"></i></a>
+          </div>
+       </div>
+    </div>
+    <hr>
+    <p class="copyright">File Organizer © 2023 - All Rights Reserved</p>
+</footer>
+
+
+
+
+
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
